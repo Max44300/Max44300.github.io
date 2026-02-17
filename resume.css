@@ -1,0 +1,23 @@
+#photo{
+    font-size : 10px;
+}
+
+
+
+header {
+    background : #10cf16;
+}
+
+h2 {
+    color : #5611d6; 
+}
+
+.droite{
+    right : 100px;
+    position : absolute;
+    }
+
+.experience {
+    font-size : 30 px;
+    background-color: #cf10cc;
+}
