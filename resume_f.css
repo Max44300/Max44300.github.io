@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Inter';
+    background-color: #e2e8f0; 
+    color: #2d3748; 
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background-color: #1a365d; /* Bleu foncé institutionnel */
+    color: #ffffff;
+    padding: 50px 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#photo{
+    border: 3px solid #ffffff;
+    margin-right: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+
+.subtitle {
+    font-size: 1.2em;
+    opacity: 0.9;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+
+#content {
+    display: flex;
+}
+
+
+.side {
+    width: 280px;
+    background-color: #f7fafc; 
+    padding: 40px 30px;
+    border-right: 1px solid #edf2f7;
+}
+
+.side #com p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+
+.main {
+    flex: 1;
+    padding: 40px;
+}
+
+/*Titres des sous-parties*/
+.titre-sous-partie {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #2b6cb0; 
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+
+.entry {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.dates {
+    width: 130px;
+    font-size: 0.85em;
+    color: #718096; 
+    font-weight: 600;
+}
+
+.details h3 {
+    margin: 0;
+    font-size: 1.15em;
+    color: #1a365d;
+}
+
+.details p {
+    margin: 4px 0 0 0;
+    color: #4a5568;
+}
+
+/* un peu de responsive pour changer la disposition des éléments quand on grossit le CV */
+@media (max-width: 900px) {
+    #content {
+        flex-direction: column;
+    }
+    .side {
+        width: auto;
+        border-right: none;
+        border-bottom: 1px solid #edf2f7;
+    }
+    .entry {
+        flex-direction: column;
+    }
+    .dates {
+        margin-bottom: 5px;
+    }
+}
