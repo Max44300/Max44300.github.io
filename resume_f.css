@@ -17,9 +17,9 @@ body {
     overflow: hidden;
 }
 
-/* Header */
+
 header {
-    background-color: #1a365d; /* Bleu foncé institutionnel */
+    background-color: #1a365d; 
     color: #ffffff;
     padding: 50px 40px;
     text-align: center;
